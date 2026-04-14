@@ -5,7 +5,7 @@
   </head>
   <style>
     h1 {
-      color: YELLOW;
+      color: yellow;
     }
 
     .p_back {
@@ -67,22 +67,30 @@
 
     <p class="p_back">
       로그인하려면 &nbsp;아이디 &nbsp;패스워드를 &nbsp;넣으세요.<br />
-      <b><a href="https://www.syu.ac.kr" target="_blank">삼육대학교</a></b
-      ><br />
+      <b><a href="https://www.syu.ac.kr" target="_blank">삼육대학교</a></b><br />
       &lt; 두개의 값은 같다. &lt;삼육대학교&gt; &lt;/삼육대학교&gt; 태그를 사용해볼까?
     </p>
 
     <ul style="width: 350px; list-style-type: none">
-      <li class="id_title" style="width: 150px !important">
+      <li class="tooltip id_title" style="width: 150px !important">
         아이디
         <span class="tooltiptext">아이디는 학번을 입력하세요.</span>
       </li>
+
       <li class="tooltip" style="width: 150px !important">
         패스워드
-        <span class="tooltiptext">패스워드는 대문자, 소문자, 특수문자, 숫자를 조합해서 입력하세요.</span>
+        <span class="tooltiptext">
+          패스워드는 대문자, 소문자, 특수문자, 숫자를 조합해서 입력하세요.
+        </span>
       </li>
-      <li style="width: 150px !important"><input type="text" name="userId" style="width: 130px" /></li>
-      <li style="width: 150px !important"><input type="password" name="userPassword" style="width: 130px" /></li>
+
+      <li style="width: 150px !important">
+        <input type="text" name="userId" style="width: 130px" />
+      </li>
+
+      <li style="width: 150px !important">
+        <input type="password" name="userPassword" style="width: 130px" />
+      </li>
     </ul>
 
     <br />
